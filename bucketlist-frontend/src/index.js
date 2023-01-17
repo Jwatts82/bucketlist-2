@@ -16,6 +16,13 @@ async function renderLists() {
     } )
 }
 
+function attachClicksToLinks() {
+    const lists = document.querySelectorAll('li a')
+    for (const list of lists) {
+        list.addEventListener('click', displaylist)
+    }
+}
+
 
 
 init()
