@@ -117,3 +117,15 @@ Processing by ListsController#index as */*
 Completed 200 OK in 19ms (Views: 13.5ms | ActiveRecord: 0.9ms | Allocations: 19314)
 
 
+Started GET "/lists" for ::1 at 2023-01-17 16:40:35 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (54.2ms)
+Completed 200 OK in 66ms (Views: 58.9ms | ActiveRecord: 0.5ms | Allocations: 3460)
+
+

@@ -10,6 +10,10 @@ async function renderLists() {
     const lists = await apiService.fetchLists()
     main.innerHTML = ''
     console.log(lists)
+    lists.map(list => {
+        const newList = new List(list)
+        main.innerHTML += newList.renderLists()
+    } )
 }
 
 
