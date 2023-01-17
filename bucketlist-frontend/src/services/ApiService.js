@@ -8,5 +8,11 @@ async fetchLists() {
     let data = await res.json()
     return data
 }
+
+async fetchList() {
+    let res = await fetch(this.baseURL + `/list/${id}`)
+    let data = await res.json()
+    return data
+}
     
 }
