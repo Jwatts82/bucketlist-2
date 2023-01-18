@@ -129,3 +129,413 @@ Processing by ListsController#index as */*
 Completed 200 OK in 66ms (Views: 58.9ms | ActiveRecord: 0.5ms | Allocations: 3460)
 
 
+Started GET "/lists" for ::1 at 2023-01-17 16:46:45 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.6ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.21ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 1.2ms | Allocations: 3489)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:48:30 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.42ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.4ms | Allocations: 3276)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:50:26 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.94ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms | Allocations: 3276)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:56:02 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.8ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.38ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 1.2ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:56:34 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.5ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.74ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.9ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:58:59 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.9ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.18ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 1.1ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:59:33 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.8ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.42ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 1.1ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:59:35 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.45ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.6ms | Allocations: 3263)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 16:59:38 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.17ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.4ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:00:08 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.5ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.98ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.8ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:06:21 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.7ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.98ms)
+Completed 200 OK in 25ms (Views: 20.2ms | ActiveRecord: 4.5ms | Allocations: 3427)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:11:57 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.91ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:14:30 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.69ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.3ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:14:31 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.1ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.67ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:15:12 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.89ms)
+Completed 200 OK in 13ms (Views: 8.0ms | ActiveRecord: 0.5ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:15:18 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.47ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.5ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:19:04 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.36ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.6ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:21:07 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.77ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.5ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:21:53 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.5ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.5ms)
+Completed 200 OK in 18ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 3260)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:23:33 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (3.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.48ms)
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 3.6ms | Allocations: 3260)
+
+
+Started GET "/" for ::1 at 2023-01-17 17:29:43 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jwattsterramar/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jwattsterramar/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 475)
+Completed 200 OK in 8ms (Views: 3.4ms | Allocations: 3070)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:29:47 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.8ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.51ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 4.8ms | Allocations: 3686)
+
+
+Started GET "/lists/item" for ::1 at 2023-01-17 17:30:07 -0500
+Processing by ListsController#show as HTML
+  Parameters: {"id"=>"item"}
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/lists_controller.rb:44:in `set_list'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 830)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find List with 'id'=item):
+  
+app/controllers/lists_controller.rb:44:in `set_list'
+Started GET "/" for ::1 at 2023-01-17 17:30:12 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jwattsterramar/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jwattsterramar/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.5ms | Allocations: 281)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 899)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:30:15 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.69ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.6ms | Allocations: 3480)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:32:41 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.5ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.49ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 1.2ms | Allocations: 10203)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:32:42 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.49ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 1.1ms | Allocations: 3434)
+
+
+Started GET "/lists" for ::1 at 2023-01-17 17:32:42 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.58ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.7ms | Allocations: 3256)
+
+
+Started GET "/lists" for ::1 at 2023-01-18 13:41:42 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.4ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.19ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 4.9ms | Allocations: 3457)
+
+
+Started GET "/lists" for ::1 at 2023-01-18 13:46:21 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (15.26ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.6ms | Allocations: 3261)
+
+
+Started GET "/lists" for ::1 at 2023-01-18 13:52:19 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.8ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.31ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 1.6ms | Allocations: 3428)
+
+
+Started GET "/lists" for ::1 at 2023-01-18 15:45:57 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.98ms)
+Completed 200 OK in 19ms (Views: 14.6ms | ActiveRecord: 0.7ms | Allocations: 19312)
+
+
+Started GET "/lists" for ::1 at 2023-01-18 15:46:04 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.3ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (14.71ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.6ms | Allocations: 3462)
+
+
+Started GET "/lists" for ::1 at 2023-01-18 15:46:35 -0500
+Processing by ListsController#index as */*
+  [1m[36mList Load (0.2ms)[0m  [1m[34mSELECT "lists".* FROM "lists"[0m
+  ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers]   [1m[36mItem Load (0.0ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 2]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.14ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 3277)
+
+
+Started GET "/lists/1" for ::1 at 2023-01-18 15:46:46 -0500
+Processing by ListsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mList Load (0.5ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/lists_controller.rb:44:in `set_list'
+[active_model_serializers]   [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."list_id" = ?[0m  [["list_id", 1]]
+[active_model_serializers]   ↳ app/controllers/lists_controller.rb:13:in `show'
+[active_model_serializers] Rendered ListSerializer with ActiveModelSerializers::Adapter::Attributes (2.82ms)
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.7ms | Allocations: 1998)
+
+
