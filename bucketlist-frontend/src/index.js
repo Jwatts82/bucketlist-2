@@ -69,7 +69,7 @@ async function createList(e) {
 
     let data = await apiService.fetchCreateList(list)
     let newList = new List(data)
-    main.innerHTML += newList.renderList()
+    main.innerHTML = newList.renderList()
         attachClicksToLinks()
         clearForm()
 }
